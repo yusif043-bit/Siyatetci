@@ -2,8 +2,8 @@ var username = document.getElementById('username');
 var password = document.getElementById('password');
 var clickme = document.getElementById('clickme');
 
-var data_username = 'yusifabbaszade01';
-var data_password = 'asdfzxcv1234';
+var data_username = 'SiyasetciTosbik';
+var data_password = 'oxlov';
 var threats = 0;
 
 clickme.addEventListener('click', ()=>{
@@ -11,7 +11,7 @@ clickme.addEventListener('click', ()=>{
         username.disabled = 'true';
         password.disabled = 'true';
         clickme.disabled = 'true';
-        alert("Access Denied!f")
+        alert("Access Denied!")
     }
     if(username.value == data_username && password.value == data_password){
         window.location.href='user_page.html';
